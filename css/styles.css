@@ -1,0 +1,72 @@
+
+
+
+#header-nav{
+	background-color:#000066;
+	color:#fff;
+	font-size:16px;
+}
+
+
+.description{
+	background-color: #666699;
+	border: 1px solid black;
+	color:white;
+	font-size:1em;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.chicken-section{
+		margin:2%;
+	}
+
+	.description{
+		padding:5%;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	 .chicken-section{
+		margin:5%;
+	}
+
+	.description{
+		padding:5%;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	  .chicken-section{
+		margin:10%;
+	}
+
+	.description{
+		padding:10%;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	  .chicken-section{
+		margin:10%;
+	}
+
+	.description{
+		padding:10%;
+	}
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	  .chicken-section{
+		margin:10%;
+	}
+
+	.description{
+		padding:10%;
+	}
+}
