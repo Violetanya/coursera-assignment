@@ -5,14 +5,41 @@
 	background-color:#000066;
 	color:#fff;
 	font-size:16px;
+	border-radius: 0;
+	border: 0;
 }
 
+#brand-nav{
+	color:white;
+}
+
+#brand-nav:hover{
+	color:#e6f2ff;
+}
+#nav-item{
+	color:white;
+}
+
+#nav-item:hover{
+	color:#e6f2ff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #563D7C;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #563D7C;
+}
 
 .description{
 	background-color: #666699;
 	border: 1px solid black;
 	color:white;
 	font-size:1em;
+	padding:0 5% 5% 5%;
+
 }
 
 /********** Large devices only **********/
@@ -21,9 +48,7 @@
 		margin:2%;
 	}
 
-	.description{
-		padding:5%;
-	}
+
 }
 
 /********** Medium devices only **********/
@@ -32,9 +57,6 @@
 		margin:5%;
 	}
 
-	.description{
-		padding:5%;
-	}
 }
 
 /********** Small devices only **********/
@@ -43,9 +65,7 @@
 		margin:10%;
 	}
 
-	.description{
-		padding:10%;
-	}
+
 }
 
 /********** Extra small devices only **********/
@@ -54,9 +74,7 @@
 		margin:10%;
 	}
 
-	.description{
-		padding:10%;
-	}
+
 }
 
 
@@ -66,7 +84,5 @@
 		margin:10%;
 	}
 
-	.description{
-		padding:10%;
-	}
+
 }
