@@ -1,8 +1,15 @@
 
 
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000066;
+  font-family: 'Oxygen', sans-serif;
+
+}
 
 #header-nav{
-	background-color:#000066;
+	background-color:#666699;
 	color:#fff;
 	font-size:16px;
 	border-radius: 0;
@@ -11,6 +18,7 @@
 
 #brand-nav{
 	color:white;
+	font-size:1.5em;
 }
 
 #brand-nav:hover{
@@ -22,20 +30,18 @@
 
 #nav-item:hover{
 	color:#e6f2ff;
+	background-color: #000066;
 }
 
-.navbar-default .navbar-toggle {
-  border-color: #563D7C;
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color:#000066;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #563D7C;
-}
 
 .description{
 	background-color: #666699;
 	border: 1px solid black;
+	border-radius: 10px;
 	color:white;
 	font-size:1em;
 	padding:0 5% 5% 5%;
